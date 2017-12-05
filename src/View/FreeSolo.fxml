@@ -16,17 +16,17 @@
             <Image url="@../vista/assets/images/Logo1.png" />
          </image>
       </ImageView>
-      <JFXButton buttonType="RAISED" contentDisplay="CENTER" layoutX="102.0" layoutY="270.0" prefHeight="46.0" prefWidth="109.0" ripplerFill="#c6c3c3" text="Yes, I did">
+      <JFXButton buttonType="RAISED" contentDisplay="CENTER" layoutX="102.0" layoutY="270.0" prefHeight="46.0" prefWidth="109.0" ripplerFill="#c6c3c3" text="Yes, I will">
          <effect>
             <Glow level="0.4" />
          </effect>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="301.0" layoutY="270.0" prefHeight="46.0" prefWidth="102.0" ripplerFill="#c6c3c3" text="No, I didn't">
+      <JFXButton buttonType="RAISED" layoutX="301.0" layoutY="270.0" prefHeight="46.0" prefWidth="102.0" ripplerFill="#c6c3c3" text="No, I won't">
          <effect>
             <Glow level="0.4" />
          </effect>
       </JFXButton>
-      <Text layoutX="102.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Did I pass the exam?" wrappingWidth="315.13671875">
+      <Text layoutX="43.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Will you share my project?" wrappingWidth="412.13671875">
          <font>
             <Font name="Poiret One" size="35.0" />
          </font>
