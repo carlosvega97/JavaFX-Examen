@@ -1,5 +1,8 @@
 package Controller;
 	
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
@@ -17,7 +20,9 @@ import javafx.scene.layout.BorderPane;
 
 public class MainFX extends Application {	
 		
-	    @Override
+	    public Stage primaryStage;
+
+		@Override
 	    public void start(Stage primaryStage) throws Exception{
 
 	        FXMLLoader loader=new FXMLLoader(getClass().getResource("../view/Login.fxml"));
@@ -25,6 +30,13 @@ public class MainFX extends Application {
 	        Scene scene=new Scene(pane);
 	        primaryStage.setScene(scene);
 	        primaryStage.show();
+	       
+			this.primaryStage = primaryStage;
+	        this.primaryStage.setTitle("Hola Ernesto");
+	        
+
+	        
+	        
 
 	    }
 
